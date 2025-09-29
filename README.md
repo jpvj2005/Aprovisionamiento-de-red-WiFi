@@ -5,6 +5,8 @@ DESCRIPCION: Solución IoT basada en ESP32 que permite la configuración dinámi
 
 
 REQUISITOS DEL SISTEMA
+
+
 Hardware
 
 - ESP32
