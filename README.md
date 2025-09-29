@@ -4,6 +4,8 @@
 DESCRIPCION: Solución IoT basada en ESP32 que permite la configuración dinámica de la red WiFi sin necesidad de reprogramar el dispositivo. Incluye un portal cautivo/interfaz web para que el usuario final configure SSID y contraseña de manera sencilla. Desarrollado en Arduino, siguiendo buenas prácticas de ingeniería y validado mediante prototipado.
 
 
+
+
 REQUISITOS DEL SISTEMA
 
 
@@ -28,7 +30,10 @@ Software
     - WebServer.h
 
 
-3. Instalación y uso
+
+
+INSTALACION Y USO:
+
 
 - Clonar este repositorio o descargar el código fuente.
 
@@ -58,7 +63,11 @@ Software
 
   - Si deseas borrar credenciales y configurar otra red, presiona el botón físico de reset (si está implementado en el código) o accede al endpoint /reset.
 
-4. Funcionamiento técnico
+
+
+
+FUNCIONAMIENTO TECNICO
+
 
 - El ESP32 verifica al inicio si existen credenciales WiFi guardadas en memoria no volátil (Preferences o SPIFFS).
 
